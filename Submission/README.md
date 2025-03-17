@@ -7,8 +7,8 @@
 
 **1. Clone repositori ini:**  
    ```bash
-   git clone https://github.com/MFakhrizalNA/submission_analisis_data_final.git
-   cd submission_analisis_data_final/Submission
+   git clone https://github.com/MFakhrizalNA/Bike_Sharing_Dashboard.git
+   cd Bike_Sharing_Dashboard/Submission
    ```
 
 **2. Buat Virtual Environment & Install Dependencies**  
@@ -22,7 +22,7 @@
 **3. Jalankan Streamlit**  
    ```bash
    cd dashboard
-   streamlit run dashboad/dashboard_new.py
+   streamlit run dashboad/dashboard.py
    ```
 
 ---
