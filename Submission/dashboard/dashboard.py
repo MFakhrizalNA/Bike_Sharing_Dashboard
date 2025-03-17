@@ -2,11 +2,13 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import numpy as np
+import os
 
 # Load dataset
 def load_data():
-    df = pd.read_csv("main_data.csv")
-    df['dteday'] = pd.to_datetime(df['dteday'])  # Convert to datetime
+    file_path = os.path.join(os.path.dirname(__file__), "main_data.csv")
+    df = pd.read_csv(file_path)
+    df['dteday'] = pd.to_datetime(df['dteday'])
     return df
 
 df = load_data()
